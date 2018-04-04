@@ -13,17 +13,17 @@
 2. bitpod-cli create --namespace=k8s-bitpod-experiment --version="latest"
 
     - At this point your namespace didn't contain any service.
-    ![alt text](./docs/images/install.png)
+    ![alt text](./docs/images/default_namespace.PNG)
        
 ## Setup (see implementation):
 
 - The script asks "some" questions and based on that creates and runs the right kubectl commands:
 
 - It seeds the neccessary configmaps/secrets in the namespace.
-![alt text](./docs/images/configmap.png)
+![alt text](./docs/images/configmap.PNG)
 
 - It then creates a new statefulset/deployment for the docker image of the "latest" bitpod designer pod.
-![alt text](./docs/images/add_designer.png)
+![alt text](./docs/images/add_designer.PNG)
 
  
 
@@ -54,9 +54,9 @@
     - Prod
 
 -----------------------------
-![alt text](./docs/images/first_run_boot.png)
-![alt text](./docs/images/first_run_boot_step1to4.png)
-![alt text](./docs/images/first_run_boot_step5.png)
+![alt text](./docs/images/first_run_boot.PNG)
+![alt text](./docs/images/first_run_boot_step1to4.PNG)
+![alt text](./docs/images/first_run_boot_step5.PNG)
 
 
 ## Accessing Designer:
